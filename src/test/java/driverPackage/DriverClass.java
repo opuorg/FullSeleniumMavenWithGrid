@@ -20,19 +20,19 @@ public class DriverClass {
 		if(Browser.equalsIgnoreCase("firefox")){
 		DesiredCapabilities capability = new DesiredCapabilities();
 		capability.setBrowserName("firefox");
-		driver= new RemoteWebDriver (new URL("http://192.168.0.116:4444/wd/hub"), capability);
+		driver= new RemoteWebDriver (new URL("http://localhost:4444/wd/hub"), capability);
 		}else if (Browser.equalsIgnoreCase("chrome")){
 			DesiredCapabilities capability = new DesiredCapabilities();
 			capability.setBrowserName("chrome");
-			driver= new RemoteWebDriver (new URL("http://192.168.0.116:4444/wd/hub"), capability);
+			driver= new RemoteWebDriver (new URL("http://localhost:4444/wd/hub"), capability);
 		}else if(Browser.contains("Safari")){
 			DesiredCapabilities capability = new DesiredCapabilities();
 			capability.setBrowserName("safari");
-			driver= new RemoteWebDriver (new URL("http://192.168.0.116:4444/wd/hub"), capability);
+			driver= new RemoteWebDriver (new URL("http://localhost:4444/wd/hub"), capability);
 		}else if(Browser.equalsIgnoreCase("internet explorer")){
 			DesiredCapabilities capability = new DesiredCapabilities();
 			capability.setBrowserName("internet explorer");
-			driver= new RemoteWebDriver (new URL("http://192.168.0.116:4444/wd/hub"), capability);
+			driver= new RemoteWebDriver (new URL("http://localhost:4444/wd/hub"), capability);
 		}else{
 			System.out.println("Please specify a valid Browser");
 		}
