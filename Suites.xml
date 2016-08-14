@@ -6,5 +6,6 @@
 		<suite-file path="Firefox.xml"></suite-file>
 		<suite-file path="Chrome.xml"></suite-file>
 		<suite-file path="Safari.xml"></suite-file>
+		<suite-file path="IE.xml"></suite-file>
 	</suite-files>
 </suite>
