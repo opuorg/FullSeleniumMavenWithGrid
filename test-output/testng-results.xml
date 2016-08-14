@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Firefox" duration-ms="3741" started-at="2016-08-14T01:54:17Z" finished-at="2016-08-14T01:54:20Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="3741" started-at="2016-08-14T01:54:17Z" finished-at="2016-08-14T01:54:20Z">
+      <class name="testSuite1.TestClass1">
+        <test-method status="PASS" signature="driverMethod(java.lang.String)[pri:0, instance:testSuite1.TestClass1@8bd1b6a]" name="driverMethod" is-config="true" duration-ms="6383" started-at="2016-08-13T21:54:10Z" finished-at="2016-08-13T21:54:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverMethod -->
+        <test-method status="PASS" signature="LoginToFacebook()[pri:0, instance:testSuite1.TestClass1@8bd1b6a]" name="LoginToFacebook" duration-ms="3106" started-at="2016-08-13T21:54:17Z" finished-at="2016-08-13T21:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToFacebook -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:testSuite1.TestClass1@8bd1b6a]" name="quitBrowser" duration-ms="623" started-at="2016-08-13T21:54:20Z" depends-on-methods="testSuite1.TestClass1.LoginToFacebook" finished-at="2016-08-13T21:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testSuite1.TestClass1 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Firefox -->
+</testng-results>
